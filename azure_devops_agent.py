@@ -11,10 +11,7 @@ from openai import OpenAI
 import httpx
 
  
-# # Set environment variables directly in code
-# os.environ["AZURE_DEVOPS_PAT"] = "your_personal_access_token_here"
-# os.environ["AZURE_DEVOPS_ORG"] = "your_azure_devops_org_or_tfs_collection"
-# os.environ["AI_API_KEY"] = "your_api_key_here"
+ 
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
