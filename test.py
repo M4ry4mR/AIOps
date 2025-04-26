@@ -4,12 +4,7 @@ import requests
 import unittest
 from unittest.mock import patch, MagicMock
 
-os.environ["AZURE_DEVOPS_PAT"] = "hjjrk7yfvkqeu2yrv44rwqeo6lfkwb6cpuiza6aplekli5rwjtia"
-os.environ["AZURE_DEVOPS_ORG"] = "AsaProjects"
-os.environ["GEMINI_API_KEY"] = "fde37bf6e2ca4282a1609dcf25c9a062"
-os.environ["ZOHO_CLIQ_BOT_NAME"] = "AI-Agent"
-os.environ["ZOHO_CLIQ_WEBHOOK_TOKEN"] = "1001.f90684b55154d44935501b5e9358c9b7.d4eb33e7bc952933f9df40ba04f9fd9c"
-
+ 
 # Set environment variables directly in code
 from azure_devops_agent import AzureDevOpsClient, GeminiAgent, DevOpsAgent
 
